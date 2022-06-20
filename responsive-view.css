@@ -1,0 +1,253 @@
+/* Mobile Screens */
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    /* section one */
+    header {
+        position: absolute;
+        background-color: transparent;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar ul:hover {
+        display: block;
+    }
+
+    .navbar .icon {
+        width: 30px;
+        float: right;
+    }
+
+    header .navbar img {
+        display: block;
+        margin-top: 3px;
+    }
+
+
+    .landing .landing-content h1 {
+        font-size: 36px;
+    }
+
+    .landing .landing-content p {
+        font-size: 22px;
+    }
+
+    /* section two */
+    .about {
+        padding-bottom: 40px;
+    }
+
+    .about .about-img {
+        float: none;
+        left: 0;
+    }
+
+    .about .about-img img {
+        width: 80%;
+        margin-left: 45px;
+    }
+
+    .about .about-img::before {
+        width: 75%;
+        height: 95%;
+        top: -22px;
+        left: 24px;
+    }
+
+    .about .about-img .profile-overlay {
+        left: 45px;
+        width: 80%;
+    }
+
+    .about .about-content {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .about .cv-btn a {
+        padding: 10px;
+        margin-left: 25px;
+    }
+
+    /* Section Three */
+    .service,
+    .portfolio {
+        padding-top: 40px;
+    }
+
+    .service h2 {
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    .service .service-box .inner-box h3,
+    .projects .projects-box .inner-box h3 {
+        font-size: 22px;
+    }
+
+    .service .service-box,
+    .projects .projects-box {
+        width: 100% !important;
+    }
+
+    /* Portfolio section */
+    .portfolio h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .portfolio ul li {
+        padding: 3px 8px;
+    }
+
+    .portfolio .gallery-box img {
+        width: 77%;
+        position: relative;
+        left: 11%;
+        padding: 3px;
+    }
+
+    /* Testimonials Section */
+    .testimonial h2 {
+        font-size: 33px;
+    }
+
+    .testimonial .box {
+        padding: 20px;
+        margin: 0 5%;
+    }
+
+    .testimonial .box .testimonial-img {
+        width: 100%;
+        position: relative;
+        top: 30px;
+        right: 60px;
+    }
+
+    .testimonial .box .testimonial-img img {
+        width: 130px;
+    }
+
+    .testimonial .box .testimonial-content {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .testimonial .box::before {
+        border-width: 80px;
+    }
+
+    /* Blog Section */
+    .blog .blog-box .box {
+        width: 100%;
+        padding: 15px 35px;
+    }
+
+    .blog h2 {
+        font-size: 35px;
+    }
+
+    .blog .blog-box .blog-content h3,
+    .blog .blog-box .blog-content p {
+        font-size: 15px;
+    }
+
+    .blog .blog-box .blog-content h3 a {
+        font-size: 22px;
+    }
+
+    /* Contact Section */
+    .contact {
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+
+    .contact h2 {
+        font-size: 35px;
+    }
+
+    .contact .line,
+    .contact .line1,
+    textarea {
+        width: 90%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        padding: 0;
+    }
+
+    .contact .form-content .btn {
+        left: 5%;
+    }
+
+    .contact .form-content .btn a {
+        padding: 10px;
+    }
+
+    /* Footer */
+    footer .copy-right {
+        font-size: 15px;
+    }
+}
+
+/* Tablet Screens */
+
+@media (max-width: 768px) {
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar ul:hover {
+        display: block;
+    }
+
+    .navbar .icon {
+        width: 30px;
+        float: right;
+    }
+
+    header .navbar img {
+        display: block;
+        margin-top: 3px;
+    }
+
+    .service .service-box,
+    .projects .projects-box {
+        width: calc(100% / 3);
+    }
+
+    .about .about-img img {
+        width: 80%;
+    }
+
+    .about .about-img {
+        left: 7%;
+    }
+
+    .about .about-img::before {
+        width: 75%;
+    }
+
+    .about-content p {
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+    }
+
+    .about-profile .text li {
+        padding: 5px 0px;
+        margin-bottom: 17px;
+    }
+
+    .about .cv-btn a {
+        padding: 10px;
+    }
+}
